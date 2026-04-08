@@ -1,0 +1,139 @@
+# CS50's Introduction to AI with Python
+
+My project submissions for [CS50 AI](https://cs50.harvard.edu/ai/), Harvard's introduction to artificial intelligence concepts and algorithms using Python.
+
+Each project explores a different area of AI — from classic search algorithms to machine learning — by implementing core ideas from scratch.
+
+---
+
+## Projects
+
+### Project 0a — [Degrees](./degrees/)
+**Topic:** Search algorithms  
+Find the shortest connection between two actors through shared movies (Six Degrees of Kevin Bacon), using **BFS** to find the shortest path in a graph.
+
+```
+python degrees.py large
+```
+
+---
+
+### Project 0b — [Tic-Tac-Toe](./tictactoe/)
+**Topic:** Adversarial search  
+An unbeatable Tic-Tac-Toe AI using the **Minimax** algorithm — the AI always plays optimally, so the best a human can do is draw.
+
+```
+python runner.py
+```
+
+---
+
+### Project 1a — [Knights](./knights/)
+**Topic:** Knowledge representation & logical inference  
+Solve "Knights and Knaves" logic puzzles using **propositional logic** and a model-checking algorithm that determines what must be true given a set of statements.
+
+```
+python puzzle.py
+```
+
+---
+
+### Project 1b — [Minesweeper](./minesweeper/)
+**Topic:** Knowledge representation & inference under uncertainty  
+An AI that plays Minesweeper by representing the board as logical sentences and inferring safe cells and mines from what it knows.
+
+```
+python runner.py
+```
+
+---
+
+### Project 2a — [PageRank](./pagerank/)
+**Topic:** Probability & Markov chains  
+Implements Google's **PageRank** algorithm two ways: by sampling a random surfer's behavior, and by iteratively computing ranks until convergence.
+
+```
+python pagerank.py corpus0
+```
+
+---
+
+### Project 2b — [Heredity](./heredity/)
+**Topic:** Bayesian networks  
+Uses a **Bayesian network** to compute the probability that people in a family inherited a gene and exhibit a genetic trait, given partial observations.
+
+```
+python heredity.py data/family0.csv
+```
+
+---
+
+### Project 3 — [Crossword](./crossword/)
+**Topic:** Constraint Satisfaction Problems (CSP)  
+Generates a filled crossword puzzle by modeling it as a CSP and solving it with **backtracking search**, arc consistency (AC-3), and heuristics like MRV and degree.
+
+```
+python generate.py data/structure1.txt data/words1.txt output.png
+```
+
+---
+
+### Project 4a — Shopping
+**Topic:** Machine learning — supervised learning  
+> *Coming soon*
+
+---
+
+### Project 4b — Nim
+**Topic:** Machine learning — reinforcement learning  
+> *Coming soon*
+
+---
+
+### Project 5 — Traffic
+**Topic:** Neural networks / computer vision  
+> *Coming soon*
+
+---
+
+### Project 6a — Parser
+**Topic:** Natural language processing  
+> *Coming soon*
+
+---
+
+### Project 6b — Attention
+**Topic:** Natural language processing / transformers  
+> *Coming soon*
+
+---
+
+## Topics covered
+
+| Week | Area | Projects |
+|---|---|---|
+| 0 | Search | Degrees, Tic-Tac-Toe |
+| 1 | Logic & Knowledge | Knights, Minesweeper |
+| 2 | Probability | PageRank, Heredity |
+| 3 | Optimization | Crossword |
+| 4 | Machine Learning | Shopping, Nim |
+| 5 | Neural Networks | Traffic |
+| 6 | Natural Language Processing | Parser, Attention |
+
+---
+
+## Setup
+
+Most projects only need Python 3. Some have extra dependencies:
+
+```bash
+# Minesweeper and Tic-Tac-Toe use pygame
+pip install -r minesweeper/requirements.txt
+pip install -r tictactoe/requirements.txt
+```
+
+---
+
+## Course
+
+[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) — Harvard / edX
