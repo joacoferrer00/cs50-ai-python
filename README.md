@@ -78,9 +78,13 @@ python generate.py data/structure1.txt data/words1.txt output.png
 
 ---
 
-### Project 4a — Shopping
+### Project 4a — [Shopping](./shopping/)
 **Topic:** Machine learning — supervised learning  
-> *Coming soon*
+Predicts whether an online shopping user will complete a purchase, using a **k-nearest neighbors** classifier trained on browsing session data (pages visited, time spent, proximity to a holiday, etc.).
+
+```
+python shopping.py shopping.csv
+```
 
 ---
 
