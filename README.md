@@ -88,9 +88,13 @@ python shopping.py shopping.csv
 
 ---
 
-### Project 4b — Nim
+### Project 4b — [Nim](./nim/)
 **Topic:** Machine learning — reinforcement learning  
-> *Coming soon*
+An AI that learns to play Nim through **Q-learning** — it trains by playing thousands of games against itself, building a strategy from experience rather than explicit rules.
+
+```
+python play.py
+```
 
 ---
 
