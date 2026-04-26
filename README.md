@@ -98,9 +98,13 @@ python play.py
 
 ---
 
-### Project 5 — Traffic
+### Project 5 — [Traffic](./traffic/)
 **Topic:** Neural networks / computer vision  
-> *Coming soon*
+A **convolutional neural network** built with TensorFlow/Keras to classify German traffic signs (43 categories, GTSRB dataset). Compares three architectures (no-conv baseline, standard CNN, deeper CNN with BatchNorm) and reaches ~98% test accuracy.
+
+```
+python traffic.py gtsrb
+```
 
 ---
 
