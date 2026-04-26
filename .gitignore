@@ -38,5 +38,8 @@ desktop.ini
 # CS50 submit tool
 .cs50.yml
 
+# Traffic project dataset (large image dataset, not code)
+traffic/gtsrb/
+
 # Claude
 CLAUDE.md
