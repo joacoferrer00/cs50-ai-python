@@ -130,9 +130,18 @@ python parser.py sentences/1.txt
 
 ---
 
-### Project 6b — Attention
-**Topic:** Natural language processing / transformers  
-> *Coming soon*
+### Project 6b — [Attention](./attention/)
+**Topic:** Natural language processing / transformers
+
+Uses BERT (via Hugging Face `transformers`) to predict masked words in a sentence. Generates 144 attention diagrams (12 layers × 12 heads) visualizing what each attention head attends to, and includes an analysis of learned linguistic relationships.
+
+```bash
+python mask.py
+# Text: The doctor told the patient to take the [MASK].
+# The doctor told the patient to take the medication.
+# The doctor told the patient to take the pill.
+# The doctor told the patient to take the drug.
+```
 
 ---
 
