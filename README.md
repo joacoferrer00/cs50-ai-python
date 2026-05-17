@@ -109,8 +109,24 @@ python traffic.py gtsrb
 ---
 
 ### Project 6a — Parser
-**Topic:** Natural language processing  
-> *Coming soon*
+**Topic:** Natural language processing
+
+Parses English sentences using a context-free grammar (CFG) and NLTK's ChartParser. Defines grammar rules for noun phrases, verb phrases, prepositional phrases, adjective phrases, and coordination. Extracts noun phrase chunks — the smallest NPs that contain no nested NPs.
+
+```bash
+python parser.py sentences/1.txt
+# Holmes sat.
+#       S
+#  _____|___
+# NP        VP
+# |         |
+# N         V
+# |         |
+# holmes   sat
+# 
+# Noun Phrase Chunks
+# holmes
+```
 
 ---
 
